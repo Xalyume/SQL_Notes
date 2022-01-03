@@ -9,6 +9,7 @@ BETWEEN - allows for range checking (the range is inclusive of both provided bou
 )
 LIKE - logical operator to apply an additional filter in your WHERE filter. The % wildcard symbol is used in conjunction with the the LIKE operation.
 e.g - WHERE name LIKE 'J%' returns all names in a table that start with a capital J
+AND - operator to use for additioanl conditionals (can be used in BETWEEN to specify both ends of the range) and also to have more than one conditional
 
 Additional Notes:
 Lists related to the IN operator must be in parenthesis
